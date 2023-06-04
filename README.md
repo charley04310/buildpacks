@@ -2,10 +2,32 @@
 
 Buildpacks are used to build the application and create a container image. For more informations about creating buildpacks, see [Buildpacks](https://buildpacks.io/docs/buildpack-author-guide/create-buildpack/).
 
+<p align="center">
+ <img src="https://buildpacks.io/images/buildpacks-social-card.jpg" alt="builder" >
+</p>
+
+## Table of Contents
+
+- [Requirements](#requirements)
+- [Install PACK](#install-pack)
+  - [Linux Ubuntu](#linux-ubuntu)
+- [Run BUILDPACKS](#run-buildpacks)
+- [Run BUILDPACKS from bash script](#run-buildpacks-from-bash-script)
+
 ## Requirements
 
 - [Docker](https://www.docker.com/)
 - [Pack](https://buildpacks.io/docs/install-pack/)
+
+## Install PACK
+
+### Linux Ubuntu
+
+```bash
+sudo add-apt-repository ppa:cncf-buildpacks/pack-cli
+sudo apt-get update
+sudo apt-get install pack-cli
+```
 
 ## Run BUILDPACKS
 
